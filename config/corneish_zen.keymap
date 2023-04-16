@@ -43,7 +43,7 @@
    &kp Q      &kp W      &kp F       &kp P       &kp B   &kp J &kp L       &kp U       &kp Y      &kp BSPC
    &hm LGUI A &hm LALT R &hm LCTRL S &hm LSHFT T &kp G   &kp M &hm LSHFT N &hm LCTRL E &hm LALT I &hm LGUI O
    &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
-                  &kp LGUI &mo 1 &kp LSHFT   &kp SPACE &mo 2 &kp RALT
+                  &mo 3 &mo 1 &kp LSHFT   &kp SPACE &mo 2 &kp RALT
                         >;
                 };
                 lower_layer {
@@ -75,5 +75,14 @@
                      &trans   &trans    &trans    &trans   &trans    &trans
                         >;
                 };
+
+                bt_layer {
+                        label = "BLUETOOTH"
+    &bt BT_CLR &none &none &none &none                        &none &none &none &none &none
+    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &pt BT_SEL 3 &none &none &none &none &none &none
+    &none &none &none &bt BT_SEL 4 &none                      &none &none &none &none &none
+                &trans &none &none                            &none &none &none
+                };
+
         };
 };
