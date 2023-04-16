@@ -71,7 +71,7 @@
                         bindings = <
    &kp EXCL &kp LBRC &kp RBRC &kp AT    &kp DLLR  &kp HOME &kp PG_DN &kp PG_UP &kp END   &kp INS
    &kp DQT  &kp LPAR &kp RPAR &kp SQT   &kp NUHS  &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp ENTER
-   &kp NUBS &kp RBKT &kp RBKT &kp GRAVE &kp CARET &kp SEMI &kp COLON &kp LT    &kp GT    &kp QMARK
+   &kp NUBS &kp LBKT &kp RBKT &kp GRAVE &kp CARET &kp SEMI &kp COLON &kp LT    &kp GT    &kp QMARK
                      &trans   &trans    &trans    &trans   &trans    &trans
                         >;
                 };
