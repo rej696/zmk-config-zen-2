@@ -36,4 +36,5 @@ To locate your firmware files...
 
 Your keyboard is now ready to use.
 
-Trigger Action
+## Notes:
+- https://zmk.dev/docs/troubleshooting/connection-issues outlines methods for debugging connection issues

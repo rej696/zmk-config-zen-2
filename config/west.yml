@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: rej696
-      revision: rej696/zen-v1+v2
+      revision: rej696/zen-v1+v2-2
       import: app/west.yml
   self:
     path: config
