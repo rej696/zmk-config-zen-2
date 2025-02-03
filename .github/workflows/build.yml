@@ -2,6 +2,6 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: rej696/zmk/.github/workflows/build-user-config.yml@rej696/zen-v1+v2
+    uses: rej696/zmk/.github/workflows/build-user-config.yml@rej696/zen-v1+v2-2
     # uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml
     # uses: LOWPROKB/zmk/.github/workflows/build-user-config.yml@corne-ish-zen-v2
