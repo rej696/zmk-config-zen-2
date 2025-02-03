@@ -5,7 +5,8 @@
 / {
     chosen {
         //zmk,matrix_transform = &default_transform;
-        zmk,matrix_transform = &five_column_transform;
+        //zmk,matrix_transform = &five_column_transform;
+        zmk,physical-layout = &footstan_corne_5col_layout;
     };
     behaviors {
         hm: homerow_mods {
